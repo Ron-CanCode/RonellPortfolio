@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="portfolioCSS.css">
+        <script src="Portfolio.js" defer></script>
+        <!-- Required meta tags (apparently)-->
+        <!-- Add icon -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ron's Personal Web</title>
+    </head>
+    <body>
+        <div class="card-container">
+
+            <video class="IntroBack-video video-format" autoplay muted playsinline>
+                <source src="Assets/BackgroundVid_2.mp4" type="video/mp4">
+            </video>
+
+            <video class="MainBack-video video-format" muted loop playsinline>
+                <source src="Assets/MainVid.mp4" type="video/mp4">
+            </video>
+
+            <div class="intro">
+                <h1 class="intro-title intro-text">Hello G'Day</h1>
+                <p class="intro-description intro-text"> Better on desktop lol </p>
+            </div>
+
+            <div class="card">
+                <h3 class="card-name">Email</h3>
+                <img class="card-icon" src="Assets/mail.png" alt="Email Icon" width="50" height="50">
+                <hr class="card-separator">
+                <h2 class="card-title">My Email</h2>
+                <p class="card-description">Message me for any inquiries</p>
+                <!-- HTML for button extracted from online !-->
+                <button class="button-82-pushable" role="button">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <button class="button-86" role="button" onclick="location.href='mailto:ronelladri@yahoo.com'">Email me</button>
+                </button>
+            </div>
+
+            <div class="card">
+                <h3 class="card-name">Socials</h3>
+                <img class="card-icon" src="Assets/network.png" alt="Email Icon" width="50" height="50">
+                <hr class="card-separator">
+                <h2 class="card-title">My Socials</h2>
+                <p class="card-description">Here ya go stalkers</p>
+                <div class="socials">
+                    <a class="social_icon" href="https://www.instagram.com/ronell__a/">
+                        <img src="Assets/Instagram_logo_2022.webp" alt="Instagram Icon" width="30" height="30">
+                    </a>
+
+                    <a class="social_icon" href="https://www.facebook.com/ronellderick.adri/">
+                        <img src="Assets/Facebook_Logo_(2019).png" alt="Facebook Icon" width="30" height="30">
+                    </a>
+
+                    <a class="social_icon" href="https://github.com/Ron-CanCode">
+                        <img src="Assets/github.png" alt="github Icon" width="30" height="30">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card-name">Profile</h3>
+                <img class="card-icon profile-picture" src="Assets/profilePic.jpg" alt="Profile Picture" width="50" height="50">
+                <hr class="card-separator">
+                <h1 class="card-title">Ronell Adri</h1>
+                <h5 class="card-subName">QUT student - Software Developer</h5>
+                <p class="card-description ProfileCard-description">I build stuff lol</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card-name">Youtube</h3>
+                <img class="card-icon" src="Assets/youtube.png" alt="Youtube Icon" width="50" height="50">
+                <hr class="card-separator">
+                <h2 class="card-title">Youtube Channel</h2>
+                <p class="card-description">Check out my vlog!</p>
+                <!-- HTML for button extracted from online !-->
+                <button class="button-82-pushable" role="button" onclick="location.href='https://www.youtube.com/watch?v=xMHJGd3wwZk'">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">Go to channel</span>
+                    </button>
+            </div>
+
+            <div class="card">
+                <h3 class="card-name">Projects</h3>
+                <img class="card-icon" src="Assets/blueprint.png" alt="Projects Icon" width="50" height="50">
+                <hr class="card-separator">
+                <h2 class="card-title">My Projects</h2>
+                <p class="card-description">Projects I have participated so far</p>
+                <!-- HTML for button extracted from online !-->
+                <button class="button-82-pushable" role="button" onclick="location.href='https://ron-can-code.github.io/Portfolio/'">
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <!-- HTML for button extracted from online !-->
+                    <button class="button-86" role="button">Go to projects!</button>
+                </button>
+            </div>
+
+            <!-- Navigation for mobile -->
+             <button class="card-arrow left-arrow">←</button>
+             <button class="card-arrow right-arrow">→</button>
+        </div>
+    </body>
+
+</html>
